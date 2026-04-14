@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dcdcdc;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* HEADER */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* MENU */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: #2b1b12;
+}
+
+nav a {
+    text-decoration: none;    
+    color: white;              
+    background-color: #4a4a4a; 
+    padding: 10px 25px;       
+    border-radius: 25px;        
+
+    transition: 0.3s;           
+}
+nav a:hover {
+    background-color: #ff6f61;
+}
+
+
+/* CONTENT */
+.container {
+    padding: 20px;
+}
+
+.box {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+	margin-top: auto;
+}
+
+
+.kontakt-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.kontakt-box {
+    background-color: #eee;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+.kontakt-slika img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+
+h1 {
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    border: none;
+    border-bottom: 2px solid #ff6f61;
+    padding: 10px;
+    margin-bottom: 25px;
+    background: transparent;
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+    resize: vertical;
+}
+
+.captcha {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.captcha input {
+    margin-right: 10px;
+}
+
+button {
+    align-self: flex-end;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e85c50;
+}
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    height: 300px;
+}
+
+
+.side {
+    width: 100%;
+    background-color: #1a0f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img {
+    width: 300px;
+}
+
+.right img {
+	width: 100px;
+}
+
+
+.center {
+    width: 50%;
+}
+
+.center img {
+    width: 100%;
+    height: 100%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+	padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* to je KLJUČNO */
+main {
+    flex: 1;
+}
+li {
+    list-style: none;
+    position: relative;
+    padding-left: 20px;
+}
+
+li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #ff6f61;
+}
+.content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.text {
+    flex: 1;
+}
+
+.img-right {
+    width: 180px;
+    border-radius: 10px;
+	margin-right: 635px;
+	align-self: flex-start;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+.slika img {
+    width: 180px;
+    border-radius: 10px;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.slika img {
+  transition: 0.3s;
+}
+
+.slika img:hover {
+  transform: scale(1.05);
+}
+.text {
+  max-width: 70%;
+}
+.box-content {
+  display: flex;
+}
